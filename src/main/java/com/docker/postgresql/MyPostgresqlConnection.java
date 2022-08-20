@@ -38,8 +38,8 @@ public class MyPostgresqlConnection {
 				String password = "root";
 				System.out.println("Connecting to URL " + url);
 				// Load the Connector/J driver
-				Class.forName("org.postgresql.Driver").newInstance();
-				System.out.println("Driver loaded successfully  ");
+				Class class1= Class.forName("org.postgresql.Driver");
+				System.out.println("Driver loaded successfully  "+class1);
 				// Establish connection to MySQL
 				DriverManager.getConnection(url, user, password);
 				System.out.println("Connection was successful");
