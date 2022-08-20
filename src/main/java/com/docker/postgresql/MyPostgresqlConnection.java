@@ -25,7 +25,7 @@ public class MyPostgresqlConnection {
 		}
 		
 		
-		Thread.sleep(10000);
+		Thread.sleep(100000);
 		
 		boolean connected = false;
 		
